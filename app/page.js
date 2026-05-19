@@ -75,6 +75,9 @@ function Hero() {
           <Link href="#community" className="group inline-flex items-center justify-center gap-2 rounded-full border border-white/30 text-white px-6 py-3.5 text-sm font-semibold hover:bg-white/10 transition-all">
             Join the Movement <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
           </Link>
+          <Link href="#ecodome" className="group inline-flex items-center justify-center gap-2 rounded-full border border-cyan-400/40 bg-cyan-400/10 text-cyan-200 px-6 py-3.5 text-sm font-semibold hover:bg-cyan-400/20 transition-all">
+            Explore EcoDome <ArrowDown className="h-4 w-4" />
+          </Link>
         </motion.div>
       </motion.div>
 
@@ -262,6 +265,45 @@ function WhatIsEcodome() {
     </section>
   )
 }
+
+<section
+  id="ecodome"
+  className="relative overflow-hidden bg-[#02050a] py-24 sm:py-32"
+>
+  <div className="absolute inset-0">
+    <div className="absolute left-1/2 top-0 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-cyan-500/10 blur-3xl" />
+  </div>
+
+  <div className="relative mx-auto max-w-7xl px-6">
+
+    <Reveal>
+      <div className="text-center">
+
+        <span className="text-[11px] uppercase tracking-[0.3em] text-cyan-300 font-medium">
+          Marine Habitat Technology
+        </span>
+
+        <h2 className="font-display mt-4 text-4xl sm:text-5xl lg:text-6xl font-semibold leading-[1.02] tracking-tightest text-white">
+          EcoDome V1
+        </h2>
+
+        <p className="mx-auto mt-6 max-w-2xl text-[15px] leading-relaxed text-white/65">
+          A modular underwater habitat engineered for shark nursery
+          protection, current stability, and long-term marine ecosystem
+          restoration using reinforced HDPE architecture.
+        </p>
+
+      </div>
+    </Reveal>
+
+    <Reveal delay={0.1}>
+      <div className="mt-16">
+        <EcoDomeCanvas />
+      </div>
+    </Reveal>
+
+  </div>
+</section>
 
 function FeaturedResearch({ papers }) {
   return (

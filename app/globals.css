@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 :root {
-<<<<<<< HEAD
   color-scheme: dark;
   --background-dark: #060b14;
   --background-light: #f4f7fd;
@@ -106,7 +105,6 @@
     scroll-behavior: auto;
   }
 }
-=======
   --mangrove: #0B3D2E;
   --mangrove-700: #0F5238;
   --mangrove-500: #1F7A52;
@@ -212,4 +210,3 @@ html { -webkit-text-size-adjust: 100%; }
 
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
->>>>>>> 400ba8a98191a22e4b12eb49e259ea4846cddf89

@@ -105,7 +105,10 @@
     scroll-behavior: auto;
   }
 }
+<<<<<<< HEAD
 :root {
+=======
+>>>>>>> a2b4f2d (Add Typescript support)
   --mangrove: #0B3D2E;
   --mangrove-700: #0F5238;
   --mangrove-500: #1F7A52;
@@ -115,7 +118,6 @@
   --sand-soft: #F2EAD8;
   --soft-white: #FAFAF7;
   --ink: #0B1F18;
-}
 
 html, body { scroll-behavior: smooth; overflow-x: hidden; }
 html { -webkit-text-size-adjust: 100%; }
@@ -210,4 +212,8 @@ html { -webkit-text-size-adjust: 100%; }
 }
 
 .no-scrollbar::-webkit-scrollbar { display: none; }
+
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+

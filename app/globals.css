@@ -105,6 +105,7 @@
     scroll-behavior: auto;
   }
 }
+:root {
   --mangrove: #0B3D2E;
   --mangrove-700: #0F5238;
   --mangrove-500: #1F7A52;

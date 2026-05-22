@@ -265,45 +265,6 @@ function WhatIsEcodome() {
   )
 }
 
-<section
-  id="ecodome"
-  className="relative overflow-hidden bg-[#02050a] py-24 sm:py-32"
->
-  <div className="absolute inset-0">
-    <div className="absolute left-1/2 top-0 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-cyan-500/10 blur-3xl" />
-  </div>
-
-  <div className="relative mx-auto max-w-7xl px-6">
-
-    <Reveal>
-      <div className="text-center">
-
-        <span className="text-[11px] uppercase tracking-[0.3em] text-cyan-300 font-medium">
-          Marine Habitat Technology
-        </span>
-
-        <h2 className="font-display mt-4 text-4xl sm:text-5xl lg:text-6xl font-semibold leading-[1.02] tracking-tightest text-white">
-          EcoDome V1
-        </h2>
-
-        <p className="mx-auto mt-6 max-w-2xl text-[15px] leading-relaxed text-white/65">
-          A modular underwater habitat engineered for shark nursery
-          protection, current stability, and long-term marine ecosystem
-          restoration using reinforced HDPE architecture.
-        </p>
-
-      </div>
-    </Reveal>
-
-    <Reveal delay={0.1}>
-      <div className="mt-16">
-        <EcoDomeCanvas />
-      </div>
-    </Reveal>
-
-  </div>
-</section>
-
 function FeaturedResearch({ papers }) {
   return (
     <section className="relative bg-[#FAFAF7] py-20 sm:py-28 lg:py-36">
